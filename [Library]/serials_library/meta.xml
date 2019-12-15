@@ -1,0 +1,33 @@
+<meta>
+
+    <info author="Tron" name="Serials Library" type="script" version="1.0.0"/>
+    <oop>true</oop>
+
+    <include resource="mysql_library"/>
+    
+    <!-- Settings -->
+    <script src="settings/shared.lua" type="shared" cache="false"/>
+    <script src="settings/server.lua" type="server"/>
+
+    <!-- Utilities -->
+    <script src="utilities/server.lua" type="server"/>
+
+    <!-- Exports -->
+    <script src="exports/server.lua" type="server"/>
+
+    <!-- Params: getSerialData(serial, data) | Returns Data; Else false Boolean -->
+    <export function="getSerialData" type="server"/>
+
+    <!-- Params: setSerialData(serial, data, value) | Returns Boolean -->
+    <export function="setSerialData" type="server"/>
+
+    <!-- Params: addUserSerial(serial) | Returns Boolean -->
+    <export function="addUserSerial" type="server"/>
+
+    <!-- Params: delUserSerial(serial) | Returns Boolean -->
+    <export function="delUserSerial" type="server"/>
+
+    <!-- Params: getAllUserSerials() | Returns Data; Else false Boolean -->
+    <export function="getAllUserSerials" type="server"/>
+
+</meta>
