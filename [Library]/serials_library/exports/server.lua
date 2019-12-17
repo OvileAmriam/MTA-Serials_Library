@@ -15,7 +15,7 @@
 
 function getAllUserSerials()
 
-    local query = connection.database:query("SELECT * FROM "..connection.tableName)
+    local query = connection.database:query("SELECT * FROM `"..connection.tableName.."`")
     if not query then return false end
 
     local result = query:poll(-1)
@@ -51,13 +51,13 @@ end
 function addUserSerial(serial)
 
     if not serial or getSerialData(serial, connection.keyColumnName) then return false end
-    return connection.database:exec("INSERT INTO "..connection.tableName.." ("..connection.keyColumnName..") VALUES(?)", serial)
+    return connection.database:exec("INSERT INTO `"..connection.tableName.."` (`"..connection.keyColumnName.."`) VALUES(?)", serial)
 
 end
 
 function delUserSerial(serial)
 
     if not serial or not getSerialData(serial, connection.keyColumnName) then return false end
-    return connection.database:exec("DELETE FROM "..connection.tableName.." WHERE "..connection.keyColumnName.."='"..serial.."'")
+    return connection.database:exec("DELETE FROM `"..connection.tableName.."` WHERE `"..connection.keyColumnName.."`='"..serial.."'")
 
 end
