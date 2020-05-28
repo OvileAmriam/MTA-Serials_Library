@@ -29,7 +29,7 @@ end)
 --[[ Event: On Player Join ]]--
 -------------------------------
 
-addEventHandler("onPlayerJoin", getRootElement(), function()
+addEventHandler("onPlayerJoin", root, function()
 
     addUserSerial(source:getSerial())
 
