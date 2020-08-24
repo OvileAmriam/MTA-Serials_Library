@@ -4,9 +4,12 @@
 ***
 
 ### Keypoints:
-> A serial management library inorder to maintain serial datas. Requires mysql_library to work out! [https://github.com/OvileAmriam/MTA-Mysql_Library]
+> A serial management library inorder to maintain serial datas.
 
-- ### Exports:
+### Dependencies:
+  - **mysql_library [https://github.com/OvileAmriam/MTA-Mysql_Library]**
+
+### Exports:
   - **Function:** _getSerialData(serial, data)_ **| Type:** _server_ **| Returns:** _data; else false bool_
   - **Function:** _setSerialData(serial, data, value)_ **| Type:** _server_ **| Returns:** _bool_
   - **Function:** _addUserSerial(serial)_ **| Type:** _server_ **| Returns:** _bool_
