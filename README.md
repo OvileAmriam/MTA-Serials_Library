@@ -1,6 +1,6 @@
 ***
 # Resource Name: Serials Library
-## Developer(s): Tron
+## Developer(s): OvileAmriam
 ***
 
 ### Keypoints:
