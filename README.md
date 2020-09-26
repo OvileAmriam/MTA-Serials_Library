@@ -4,7 +4,7 @@
 ***
 
 ### Keypoints:
-> A serial management library inorder to maintain serial datas.
+> ***A serial management library inorder to maintain serial datas.***
 
 ### Dependencies:
   - **mysql_library [https://github.com/OvileAmriam/MTA-Mysql_Library]**
