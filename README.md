@@ -1,5 +1,5 @@
 ***
-# Resource Name: Serials Library
+# Resource: Serials Library
 ## Developer(s): OvileAmriam
 ***
 
