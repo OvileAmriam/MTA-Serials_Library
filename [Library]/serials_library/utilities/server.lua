@@ -16,7 +16,7 @@
 
 addEventHandler("onResourceStart", resource, function()
 
-    setTimer(function()
+    Timer(function()
         for i, j in ipairs(Element.getAllByType("player")) do
             addUserSerial(j:getSerial())
         end	
