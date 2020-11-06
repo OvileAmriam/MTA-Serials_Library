@@ -1,13 +1,23 @@
 ***
-# Resource: Serials Library
+## Resource: Serials Library
 ## Developer(s): OvileAmriam
 ***
 
 ### Keypoints:
-> ***A serial management library inorder to maintain serial datas.***
+  :heavy_check_mark: **Eases out Serial management.**
+
+  :heavy_check_mark: **Easy to understand & integrate APIs.**
+
+  :heavy_check_mark: **Syncs Default Serial w/ MySQL.**
+
+  :heavy_check_mark: **Syncs Serial's Datas w/ MySQL.**
+
+  :heavy_check_mark: **Implemenation concept based on native setAccountData/getAccountData.**
+
+  :warning: **Sync version** [Don't overuse it frequently; Instead cache your datas]
 
 ### Dependencies:
-  - **mysql_library [https://github.com/OvileAmriam/MTA-Mysql_Library]**
+  - **[Mysql Library](https://github.com/OvileAmriam/MTA-Mysql_Library)**
 
 ### Exports:
   - **Function:** _getSerialData(serial, data)_ **| Type:** _server_ **| Returns:** _data; else false bool_
