@@ -12,7 +12,7 @@
 
   :heavy_check_mark: **Syncs Serial's Datas w/ MySQL.**
 
-  :heavy_check_mark: **Implementated based on native setAccountData/getAccountData.**
+  :heavy_check_mark: **Implemented based on native setAccountData/getAccountData.**
 
   :warning: **Sync version** [Don't overuse it frequently; Instead cache your datas]
 
